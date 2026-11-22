@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "description": "KNXnet/IP routing <-> tunneling bridge",
   "main": "out/main/index.js",
+  "author": "Tobias Wegner <git@tobiaswegner.de>",
   "private": true,
   "scripts": {
     "dev": "electron-vite dev",
