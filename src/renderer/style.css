@@ -1,0 +1,12 @@
+body { font-family: system-ui, sans-serif; margin: 0; background: #f4f5f7; color: #1d2330; }
+.wrap { padding: 16px; display: grid; gap: 16px; grid-template-columns: 340px 1fr; }
+.card { background: #fff; border-radius: 8px; padding: 14px; box-shadow: 0 1px 3px #0002; }
+h2 { margin: 0 0 10px; font-size: 15px; }
+label { display: block; font-size: 12px; margin: 8px 0 2px; }
+input, select { width: 100%; box-sizing: border-box; padding: 5px; }
+input[type=checkbox] { width: auto; margin-right: 6px; }
+.err { color: #c0262d; font-size: 11px; }
+.dot { display: inline-block; width: 9px; height: 9px; border-radius: 50%; margin-right: 6px; background: #bbb; }
+.dot.on { background: #2e9f4f; }
+button { padding: 6px 14px; margin-right: 8px; }
+.log { font-family: monospace; font-size: 12px; height: 300px; overflow: auto; background: #111; color: #cfe; padding: 8px; border-radius: 4px; }
